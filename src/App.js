@@ -11,7 +11,7 @@ class App extends Component {
             {/* Todo: Add an identifier to the video array so the className isn't awkward */}
           {videos.map((video, index) => (
             <li 
-              className={video.title}
+              className={video.name}
               key={index}
             >
               {video.name}
