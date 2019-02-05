@@ -1,4 +1,4 @@
-const videos = [
+export const videos = [
   {
     name: "video-one", 
     title: "Description for video-one", 

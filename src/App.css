@@ -18,6 +18,11 @@
   color: white;
 }
 
+ul,
+li {
+  list-style: none;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -26,6 +31,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
