@@ -7,7 +7,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
           <ul>
             {/* Todo: Add an identifier to the video array so the className isn't awkward */}
           {videos.map((video, index) => (
@@ -19,7 +18,6 @@ class App extends Component {
             </li>
           ))}
           </ul>
-        </header>
       </div>
     );
   }
