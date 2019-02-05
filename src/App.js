@@ -1,19 +1,12 @@
 import React, { Component } from 'react';
 // import './App.css';
 import { videos } from './data/videos';
-
-const listStyle = {
-  color: 'white',
-  backgroundColor: 'inherit',
-  display: 'grid',
-  gridTemplateColumns: 'repeat(auto-fill, minmax(5rem, 10rem))',
-  listStyle: 'none'
-}
+import {listStyle, divGeneral } from './style'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App" style={divGeneral}>
           <ul style={listStyle}>
             {/* Todo: Add an identifier to the video array so the className isn't awkward */}
           {videos.map((video, index) => (

@@ -1,4 +1,6 @@
 body {
+  font-weight: 300;
+  line-height: 1.6;
   background: #222;
   margin: 0;
   padding: 0;
@@ -10,4 +12,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
