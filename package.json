@@ -5,6 +5,7 @@
   "dependencies": {
     "eslint-config-airbnb": "^17.1.0",
     "react": "^16.7.0",
+    "react-burger-menu": "^2.6.3",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3"
   },

@@ -3,8 +3,6 @@ export const videos = [
     name: 'video-one',
     title: 'Description for video-one',
     duration: 1,
-    channelName: 'Channel Name',
-    views: '1.5k',
     thumbnail: './images/moon.jpg',
   },
   {
