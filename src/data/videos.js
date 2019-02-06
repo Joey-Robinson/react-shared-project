@@ -2,7 +2,11 @@ export const videos = [
   {
     name: "video-one", 
     title: "Description for video-one", 
-    duration: 1
+    duration: 1,
+    previewImage: {
+      thumbnail: '../images/video-one-thumbnail.jpg',
+      actual: '../images/video-one.jpg'
+    }
   },
   {
     name: "video-two", 

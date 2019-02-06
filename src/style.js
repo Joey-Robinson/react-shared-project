@@ -5,7 +5,7 @@ export const listStyle = {
   display: 'grid',
   gridTemplateColumns: 'repeat(auto-fill, minmax(10rem, 15rem))',
   listStyle: 'none',
-  padding: '1rem 2rem'
+  padding: '10rem 2rem'
 }
 
 export const divGeneral = {
